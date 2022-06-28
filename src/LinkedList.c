@@ -578,3 +578,32 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 
 }
+
+
+
+int ll_Filt(LinkedList* this, int (*pFunc)(void*))
+{
+	void* pElement;
+	int criterio;
+	LinkedList *  this2=NULL;
+	if(this!=NULL && pFunc != NULL)
+	{
+		this2 = ll_clone(this);
+
+		for (int i = 0; i < ll_len(this2); i++)
+		{
+			pElement = ll_get(this2,i);
+
+			criterio = pFunc(pElement);
+			if (criterio!=1)
+
+			{
+				ll_remove(this2, i);
+			}
+		}
+
+	}
+
+	return this2;
+}
+

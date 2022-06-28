@@ -37,6 +37,7 @@ int CargarDatosSalon(char* archivo , LinkedList* pArraySalon)
 		{
 				printf("\nEl archivo %s no puede ser abierto" ,archivo);
 				Salon_saveAsText(archivo, pArraySalon);
+				retorno=RETORNOPOSITIVO;
 		}
 
 
@@ -149,6 +150,8 @@ int CargarDatosArcade(char* archivo , LinkedList* pArrayArcade)
 		{
 
 			printf("\nEl archivo %s no puede ser abierto" ,archivo);
+			Arcade_saveAsText(archivo, pArrayArcade);
+			retorno=RETORNOPOSITIVO;
 		}
 
 	}
@@ -269,8 +272,9 @@ int CargarDatosJuego(char* archivo , LinkedList* pArrayJuego)
 		}
 		else
 		{
-
 			printf("\nEl archivo %s no puede ser abierto" ,archivo);
+			Juego_saveAsText(archivo, pArrayJuego);
+			retorno=RETORNOPOSITIVO;
 		}
 
 	}

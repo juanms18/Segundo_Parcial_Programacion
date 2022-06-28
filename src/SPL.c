@@ -48,7 +48,7 @@ int main(void) {
 	{
 
 		do{
-			if(getInt(&opcion, "\n1) ALTA DE SALÓN\n"
+			if(getInt(&opcion, "1) ALTA DE SALÓN\n"
 					"2) ELIMINAR SALÓN \n"
 					"3) LISTAR SALONES\n"
 					"4) INCORPORAR ARCADE\n"
@@ -200,3 +200,10 @@ int main(void) {
 
 	return EXIT_SUCCESS;
 }
+
+
+
+/* agregar un filtro funcion filter
+ * como el sort filtra
+ * crear un nuevo punto
+ */

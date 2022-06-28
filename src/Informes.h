@@ -29,6 +29,9 @@ int OdenarJuegoPorNombre(LinkedList * pArrayListJuego, int orden);
 int CantidadDeArcadesPorSalonDesdeArcade(LinkedList * pArrayListArcade , int idSalon , int * cantidadDeArcade  );
 int ScanSalonParaImprimirConCantidadDeArcades(LinkedList* pArrayListSalon, int posicion , int cantidadDeArcades);
 int CantidadDeArcadesPorSalon(LinkedList * pArrayListSalon , LinkedList * pArrayListArcade);
+int Filtrar_ArcadePorNacionalidadEstadounidence( void* arcade);
+int Arcade_ListArcadeConJuegosEEUU(LinkedList* pArrayListArcade , LinkedList * pArrayListJuego );
+int FiltroEEUU(LinkedList * pArrayListArcade );
 
 
 

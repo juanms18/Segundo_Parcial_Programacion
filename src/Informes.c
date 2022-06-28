@@ -43,7 +43,8 @@ do{
 			"5) Listar todos los arcades de un salón determinado ingresando su ID. Informar nombre y tipo de salón, listar todos los arcade con sus datos junto con el nombre del juego que lo compone.\n"
 			"6) Imprimir el salón con más cantidad de arcade, indicando todos los datos del salón y la cantidad de arcade que posee. Ordenado de manera ascendente.\n"
 			"7) Listar los arcades que cumplan con sonido MONO y el género de su juego sea PLATAFORMA, informando nombre de juego, género y cantidad de jugadores que soporta el arcade. El listado deberá estar ordenado por nombre de juego.\n"
-			"8) Volver al menu.\n" ,"Opcion incorrecta!!\n", 1 ,8 , 3)==1)
+			"8) Filtro (Filtra la lista sin los arcades de EEUU)\n"
+			"9) Volver al menu.\n" ,"Opcion incorrecta!!\n", 1 ,9 , 3)==1)
 			{
 
 					switch(opcion)
@@ -89,11 +90,14 @@ do{
 						ListarArcadesConSonidoMonoYGeneroDelJuegoPlataforma(pArraylistArcade, pArrayListJuegos);
 
 						break;
+					case 8:
+						Arcade_ListArcadeConJuegosEEUU(pArraylistArcade, pArrayListJuegos);
+						break;
 
 					}
 			}
 
-}while (opcion!=8);
+}while (opcion!=9);
 
 }
 
@@ -688,6 +692,7 @@ int CantidadDeArcadesPorSalonDesdeArcade(LinkedList * pArrayListArcade , int idS
 			if(pArcade!=NULL && Arcade_getIdSalon(pArcade, &auxArcade.idSalon) == RETORNOPOSITIVO && auxArcade.idSalon == idSalon)
 			{
 				contador=contador+1;
+
 			}
 		}
 		if(contador>0)
@@ -755,3 +760,54 @@ int sort(LinkedList * pArrayListSalon  , int id1 , int id2, int CantidadDeArcade
 
 		}
 */
+
+int Filtrar_ArcadePorNacionalidadEstadounidence( void* arcade)
+{
+	int retorno=-2;
+    int auxNacionalidad;
+
+	if(arcade != NULL )
+	{
+		Arcade_getNacionalidad(arcade, &auxNacionalidad);
+		if(auxNacionalidad != 1)
+		{
+			retorno=1;
+		}
+	}
+	return retorno;
+}
+
+
+int Arcade_ListArcadeConJuegosEEUU(LinkedList* pArrayListArcade , LinkedList * pArrayListJuego )
+{
+	int retorno = RETORNONEGATIVO;
+	int len;
+	LinkedList * listasinEEUU;
+
+
+	if(pArrayListArcade!= NULL)
+	{
+		len = ll_len(pArrayListArcade);
+		listasinEEUU = FiltroEEUU(pArrayListArcade );
+
+		puts("|ID Arcade | ID SALON | ID JUEGO | TIPO DE SONIDO | NACIONALIDAD |N° JUGADORES|CAP MAX DE FICHAS|  NOMBRE DEL JUEGO  |EMP CREADORA|   GENERO   | ");
+		for(int i=0;i<len;i++)
+		{
+			 FiltroEEUU(pArrayListArcade );
+
+		    	retorno = ScanArcadeParaImprimirConJuegos(listasinEEUU, pArrayListJuego,i);
+			;
+		}
+	}
+	return retorno;
+}
+
+
+int FiltroEEUU(LinkedList * pArrayListArcade )
+{
+	int retorno = -1;
+	LinkedList * listasinEEUU;
+	listasinEEUU =  ll_Filt(pArrayListArcade, Filtrar_ArcadePorNacionalidadEstadounidence);
+
+	return listasinEEUU;
+}
