@@ -782,32 +782,18 @@ int Arcade_ListArcadeConJuegosEEUU(LinkedList* pArrayListArcade , LinkedList * p
 {
 	int retorno = RETORNONEGATIVO;
 	int len;
-	LinkedList * listasinEEUU;
-
 
 	if(pArrayListArcade!= NULL)
 	{
 		len = ll_len(pArrayListArcade);
-		listasinEEUU = FiltroEEUU(pArrayListArcade );
+		LinkedList * listasinEEUU = ll_Filt(pArrayListArcade, Filtrar_ArcadePorNacionalidadEstadounidence);
 
 		puts("|ID Arcade | ID SALON | ID JUEGO | TIPO DE SONIDO | NACIONALIDAD |N° JUGADORES|CAP MAX DE FICHAS|  NOMBRE DEL JUEGO  |EMP CREADORA|   GENERO   | ");
 		for(int i=0;i<len;i++)
 		{
-			 FiltroEEUU(pArrayListArcade );
-
 		    	retorno = ScanArcadeParaImprimirConJuegos(listasinEEUU, pArrayListJuego,i);
-			;
 		}
 	}
 	return retorno;
 }
 
-
-int FiltroEEUU(LinkedList * pArrayListArcade )
-{
-	int retorno = -1;
-	LinkedList * listasinEEUU;
-	listasinEEUU =  ll_Filt(pArrayListArcade, Filtrar_ArcadePorNacionalidadEstadounidence);
-
-	return listasinEEUU;
-}
