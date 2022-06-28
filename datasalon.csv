@@ -1,0 +1,301 @@
+Id Salon,Nombre,Direccion,Tipo
+1,Ooba,18 Everett Parkway,2
+2,Eire,07639 Doe Crossing Crossing,1
+3,Flipstorm,9 Sachs Hill,1
+4,Zoonder,8706 Prairieview Terrace,1
+5,Topicshots,9 Rockefeller Center,2
+6,Jetpulse,55048 Ryan Crossing,1
+7,Yodel,04 Mallard Court,2
+8,Zazio,41 Old Gate Avenue,2
+9,Jabberbean,517 Red Cloud Junction,2
+10,Izio,1 Prairieview Way,2
+11,Jaxnation,206 Spohn Avenue,2
+12,Skivee,7522 Rigney Center,2
+13,Buzzbean,0320 Garrison Crossing,2
+14,Vitz,6 Karstens Parkway,1
+15,Zooveo,732 Chive Crossing,2
+16,Edgeclub,32232 Westerfield Street,1
+17,Kwimbee,204 Monument Point,2
+18,Nlounge,4298 Susan Plaza,2
+19,Buzzster,836 Northview Drive,1
+20,Innotype,54829 New Castle Plaza,2
+21,Twinte,477 Lunder Court,1
+22,Yata,89 Oakridge Center,2
+23,Shufflester,2 Prairieview Drive,2
+24,JumpXS,2 Fulton Crossing,1
+25,Yata,73844 Michigan Point,1
+26,Thoughtbridge,58 East Crossing,2
+27,Twimbo,09 Mcbride Junction,1
+28,Wikivu,41 Schurz Center,1
+29,Meezzy,187 Eastwood Lane,1
+30,Innojam,8967 Hoard Terrace,2
+31,Youspan,43 Old Gate Pass,2
+32,Trilith,299 Butterfield Trail,2
+33,Agivu,92216 Fordem Drive,1
+34,Skipfire,6592 Bluestem Alley,1
+35,Meevee,8097 Dexter Crossing,2
+36,Yodo,7 Porter Drive,2
+37,Meeveo,2 Eagle Crest Center,2
+38,Miboo,4 Lunder Park,2
+39,Eazzy,036 Corry Drive,2
+40,Ntag,1 Pankratz Trail,1
+41,Browsebug,09 2nd Court,2
+42,Leexo,7988 Lerdahl Road,2
+43,Rhynyx,706 Old Shore Avenue,1
+44,Zoombeat,408 Brown Avenue,1
+45,Yodoo,44956 Lindbergh Pass,1
+46,Twitterlist,3 Chive Plaza,2
+47,Oyonder,01705 Redwing Lane,2
+48,Feedfish,5 Fremont Pass,2
+49,Quatz,125 Londonderry Hill,2
+50,Avamm,010 Atwood Court,1
+51,Yozio,7 Butternut Terrace,1
+52,Quire,5157 Clyde Gallagher Center,1
+53,Bubblemix,327 Jenna Way,2
+54,Quatz,6 Esch Avenue,1
+55,Katz,79995 Delladonna Center,1
+56,Mita,2615 Parkside Way,1
+57,Ntag,8 Morningstar Drive,1
+58,Rhyloo,71 Atwood Point,1
+59,Trupe,3 Shasta Avenue,1
+60,Reallinks,8784 Lakewood Gardens Place,2
+61,Miboo,9914 Saint Paul Center,1
+62,Snaptags,6 Barnett Court,2
+63,Quatz,5115 Dixon Trail,1
+64,Flipstorm,723 Arrowood Plaza,2
+65,Roombo,7 Shopko Junction,2
+66,Wordify,07686 Melvin Lane,1
+67,Mymm,4 Atwood Place,2
+68,Npath,26 Sage Terrace,2
+69,Pixoboo,54 Nelson Alley,2
+70,Browsezoom,232 Morrow Trail,2
+71,Tazz,5848 Logan Plaza,1
+72,Yakitri,54489 Center Hill,2
+73,Flipbug,8174 Truax Center,2
+74,Kazio,962 Ruskin Pass,1
+75,Blogtag,1529 Bowman Road,2
+76,Skimia,7342 Welch Terrace,1
+77,Cogibox,6 Buena Vista Drive,1
+78,Yozio,1456 Pond Center,1
+79,Gigaclub,8 Mcguire Lane,2
+80,Podcat,22313 Jenna Drive,2
+81,Snaptags,543 Veith Road,2
+82,Vitz,93 Randy Drive,1
+83,Mynte,83 Fairview Center,2
+84,Meevee,6039 Warrior Circle,2
+85,Shuffletag,43 Thompson Trail,2
+86,Quatz,10 Steensland Road,2
+87,Omba,78112 Scofield Hill,2
+88,Kwideo,33 Mccormick Center,2
+89,LiveZ,9213 Gerald Terrace,2
+90,Teklist,5 Monica Hill,2
+91,Fivespan,1 Mayfield Pass,1
+92,Livetube,73120 Village Avenue,1
+93,Yodo,2403 6th Road,1
+94,Photolist,09 Fordem Circle,2
+95,Skiba,4197 Express Court,1
+96,Eadel,3107 Briar Crest Junction,2
+97,Rooxo,60 Russell Place,1
+98,Minyx,62996 Lakewood Way,2
+99,Twitternation,582 Corscot Circle,2
+100,Realbuzz,53 Spohn Road,1
+101,Pixope,608 Oakridge Plaza,2
+102,Dabfeed,37923 Northfield Junction,1
+103,Trudeo,0092 7th Circle,2
+104,Blogpad,28868 Superior Crossing,1
+105,Skidoo,8 Swallow Alley,2
+106,Tavu,1595 Brown Place,1
+107,Bubbletube,09 Continental Center,2
+108,Trudoo,28896 Evergreen Alley,1
+109,Eimbee,40609 Merrick Terrace,1
+110,Voolia,89 Main Circle,2
+111,Mycat,69309 Pankratz Court,2
+112,Cogibox,476 Brentwood Street,2
+113,Ozu,4212 Texas Place,2
+114,Topicstorm,0184 Redwing Point,2
+115,Cogilith,50911 Ridgeway Street,2
+116,Pixoboo,2 Northfield Parkway,1
+117,Oozz,1 Evergreen Street,1
+118,Aibox,7909 Sullivan Drive,1
+119,Kayveo,802 Dottie Crossing,2
+120,Brainbox,64090 Gale Court,1
+121,Tavu,26 Homewood Alley,1
+122,Talane,70 Memorial Drive,1
+123,Gabspot,62 Norway Maple Center,1
+124,Shufflester,126 Fairfield Terrace,2
+125,Skivee,0643 Little Fleur Park,1
+126,Oodoo,5 Ilene Circle,1
+127,Gevee,29603 Hoffman Point,2
+128,Tagpad,0270 Jana Junction,1
+129,Meetz,43939 Tennessee Road,2
+130,Oyonder,6258 Macpherson Park,2
+131,Livetube,265 Eastlawn Circle,1
+132,Thoughtblab,79 Cottonwood Way,1
+133,Meedoo,235 Talmadge Terrace,2
+134,Aivee,471 Lotheville Park,2
+135,Chatterbridge,65 Spenser Drive,2
+136,Youfeed,77 New Castle Plaza,1
+137,Zoonder,3831 Lien Road,1
+138,Twitterbeat,6 Twin Pines Pass,2
+139,Skinix,29 Ridgeway Way,2
+140,Yambee,8 Jenifer Hill,1
+141,Dynabox,80 Tomscot Alley,2
+142,Ailane,7 Grover Avenue,2
+143,Zoozzy,13058 Morrow Avenue,2
+144,Twimbo,2 Reinke Road,2
+145,Skyble,82263 Red Cloud Junction,2
+146,InnoZ,2792 Banding Parkway,1
+147,Skimia,08840 Prentice Junction,1
+148,Zoombeat,294 Surrey Point,2
+149,Browsezoom,1566 Westend Circle,2
+150,Miboo,692 Northfield Crossing,2
+151,Photojam,8859 Thompson Avenue,2
+152,Dablist,48 Vera Center,2
+153,Edgeify,30 Memorial Circle,1
+154,Ainyx,517 Blaine Park,1
+155,Roomm,7963 Clove Parkway,1
+156,Yodo,6967 Orin Junction,1
+157,Topicstorm,356 Goodland Terrace,1
+158,Quaxo,397 Badeau Park,2
+159,Brainverse,6 Chive Court,1
+160,Yata,8824 Saint Paul Crossing,2
+161,Topiclounge,12 Troy Crossing,2
+162,Rhyloo,97 Portage Alley,2
+163,Skiptube,6728 North Lane,1
+164,Divape,14647 Johnson Crossing,2
+165,Zoozzy,6 Rieder Park,2
+166,Oloo,429 Sage Crossing,2
+167,Jaxbean,33 Cody Junction,2
+168,Yamia,90550 Longview Lane,2
+169,Jaloo,22366 Sundown Way,2
+170,Twiyo,47356 Warbler Avenue,1
+171,Tazzy,1821 Goodland Circle,1
+172,Centimia,04933 Nobel Park,1
+173,Thoughtbeat,26 Northwestern Terrace,2
+174,Gabtune,6 Montana Alley,1
+175,Voomm,8 Russell Point,1
+176,Fliptune,7613 Bellgrove Plaza,2
+177,Yambee,12 Armistice Place,2
+178,Yoveo,534 Vera Alley,1
+179,Meemm,008 Sachs Circle,1
+180,Thoughtmix,448 Green Ridge Court,2
+181,Photojam,60 Loftsgordon Drive,2
+182,Kayveo,0 Pleasure Street,1
+183,Flipstorm,4 Moland Crossing,2
+184,Riffpath,83 Golden Leaf Crossing,1
+185,Gigaclub,83214 Dexter Park,2
+186,Youspan,7 Forest Run Avenue,2
+187,Flipstorm,517 Rusk Park,1
+188,Jayo,2345 Blue Bill Park Avenue,2
+189,Quamba,45129 Fairview Road,1
+190,Livetube,9588 Havey Crossing,2
+191,Bubblebox,1 Nova Court,2
+192,Rhyloo,656 Eagle Crest Avenue,1
+193,Feedfish,46 Thackeray Road,2
+194,Browsezoom,8 Hoffman Drive,2
+195,Realpoint,56861 Saint Paul Drive,2
+196,Dabvine,5301 Morningstar Park,2
+197,Trunyx,2107 Tennyson Way,1
+198,Jetpulse,04892 Hudson Avenue,2
+199,Yakitri,056 Spenser Plaza,2
+200,Avaveo,35099 Goodland Street,2
+201,Edgeclub,16 Gina Circle,2
+202,LiveZ,3 Superior Pass,1
+203,Realpoint,29551 Nevada Road,2
+204,Thoughtstorm,16271 Eggendart Point,1
+205,Realbridge,19331 Ridgeview Hill,1
+206,Eamia,8131 Arkansas Circle,2
+207,Yakitri,6 Erie Place,2
+208,Bluejam,38 2nd Plaza,1
+209,Gabvine,0 Morrow Terrace,2
+210,Quinu,6855 Everett Street,2
+211,Yodo,19 Laurel Trail,1
+212,Kaymbo,8 Bay Alley,2
+213,Youfeed,4353 Utah Street,2
+214,Thoughtmix,07616 Bowman Plaza,1
+215,Dabvine,923 Hazelcrest Crossing,1
+216,Lazzy,6586 6th Court,2
+217,Wikizz,48 Iowa Alley,1
+218,Zoomcast,225 Stephen Crossing,1
+219,Yata,94773 Monument Lane,2
+220,Yamia,0 Claremont Alley,2
+221,Skinix,47 Portage Park,2
+222,Brightdog,68 Warner Parkway,2
+223,Viva,34 Morningstar Center,2
+224,Wikizz,589 Mesta Park,1
+225,Kazio,6 Hintze Terrace,1
+226,Topiczoom,9 Bobwhite Street,1
+227,Oyope,293 Welch Road,2
+228,Pixope,08 Becker Lane,1
+229,Wordware,54884 Florence Hill,1
+230,Realmix,039 Lindbergh Terrace,1
+231,Quamba,5479 Sachtjen Crossing,2
+232,Meevee,74 Sage Terrace,2
+233,Browsezoom,7597 Schlimgen Plaza,2
+234,Tagpad,8 Holmberg Point,1
+235,Ailane,5871 Orin Hill,1
+236,Browsetype,84 Fuller Court,1
+237,Camimbo,9706 Crest Line Avenue,2
+238,InnoZ,951 Delaware Court,2
+239,Blognation,8 Northview Way,2
+240,Demizz,256 Schiller Junction,1
+241,Camimbo,378 Hudson Avenue,2
+242,Skipstorm,573 Fordem Plaza,2
+243,Edgeclub,4933 Prairie Rose Point,2
+244,Rhycero,6378 Hermina Court,1
+245,Yoveo,19 Memorial Plaza,1
+246,Fadeo,40 Jay Court,1
+247,Mybuzz,2 Merry Place,1
+248,Fadeo,2277 Maywood Circle,1
+249,Ntag,71325 Dottie Pass,2
+250,Devpulse,357 Pierstorff Place,2
+251,Edgeblab,659 Basil Pass,2
+252,Realcube,67 Hansons Drive,2
+253,Gigaclub,04389 Miller Plaza,1
+254,Mymm,44211 Mifflin Center,1
+255,Photobug,4103 Orin Plaza,2
+256,Abatz,392 Walton Park,1
+257,Pixope,02 Redwing Plaza,2
+258,Kamba,94130 Summit Parkway,2
+259,Tagchat,980 Dorton Place,1
+260,Cogibox,593 Waxwing Hill,2
+261,Bluezoom,6041 Dahle Road,2
+262,Twitterwire,5 Evergreen Avenue,2
+263,Thoughtmix,145 Tennessee Place,1
+264,Jetwire,5345 Briar Crest Crossing,1
+265,Edgeify,03 Maryland Plaza,1
+266,Katz,16 Dawn Street,1
+267,Tagchat,38874 Hayes Crossing,1
+268,Eayo,898 Pond Road,2
+269,Oyoyo,4800 Shelley Way,2
+270,Twinder,153 Independence Hill,1
+271,Blogpad,0 Artisan Parkway,1
+272,Twitternation,573 Sugar Place,2
+273,Roomm,55 Vermont Way,1
+274,Buzzshare,269 Lunder Street,2
+275,Jabbertype,27 Oak Valley Trail,1
+276,Avavee,623 Jenifer Way,2
+277,Voonix,6556 Fallview Junction,2
+278,Rhynoodle,006 Morningstar Plaza,1
+279,Wikizz,3 Upham Plaza,1
+280,Devpoint,4538 Ronald Regan Place,2
+281,Camido,31764 Sachtjen Avenue,2
+282,Skalith,504 Pine View Court,1
+283,Quimm,6351 Parkside Trail,1
+284,Ainyx,5138 Cardinal Place,2
+285,Dynazzy,382 Bowman Center,1
+286,Skipfire,235 Bay Parkway,2
+287,Demivee,541 Veith Lane,2
+288,Livepath,107 Heath Plaza,2
+289,Yakijo,1298 Steensland Street,2
+290,Skyble,49 Arrowood Center,2
+291,Skyvu,3 Kropf Parkway,2
+292,Teklist,53 East Park,1
+293,Twitterbeat,7978 Schiller Park,2
+294,Eidel,28110 Debs Drive,1
+295,Yamia,38080 Sauthoff Crossing,2
+296,Jabberbean,6072 4th Terrace,2
+297,Nlounge,0869 Colorado Junction,2
+298,Meembee,50 Macpherson Point,2
+299,Feedbug,83 Myrtle Pass,1
+300,Meevee,9 Hermina Hill,1
